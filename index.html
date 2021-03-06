@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+            integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./src/css/style.css" />
+        <title>To-Do List @coach-oox</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>To-Do List</h2>
+            <div class="todo-container">
+                <form class="todo-form">
+                    <input
+                        type="text"
+                        name="todo"
+                        id="todo"
+                        placeholder="Enter a new todo."
+                    />
+                </form>
+
+                <h3>Active</h3>
+                <ul class="todo-list active"></ul>
+
+                <h3>Done</h3>
+                <ul class="todo-list done"></ul>
+            </div>
+        </div>
+        <script src="./src/js/todo.js"></script>
+    </body>
+</html>

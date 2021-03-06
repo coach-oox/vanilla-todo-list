@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+/* font */
+/* color */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  padding: 3em 0;
+  color: #3e4149; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px; }
+  .container h2 {
+    font-size: 3.5em; }
+
+.todo-container {
+  width: 70%;
+  max-width: 500px; }
+  .todo-container input {
+    width: 100%;
+    height: 50px;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 5px solid #ff9999; }
+  .todo-container h3 {
+    font-size: 1.5em;
+    margin: 1em 0; }
+  .todo-container ul > li:first-child {
+    border-top: 1px dotted #444f5a; }
+  .todo-container li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #444f5a;
+    list-style: none;
+    margin: 0;
+    padding: 0.5em 0; }
+  .todo-container .left,
+  .todo-container .right {
+    display: flex;
+    align-items: center; }
+  .todo-container .left > i {
+    margin-right: 0.5em; }
+  .todo-container .right > i:first-child {
+    margin-right: 0.5em; }
+  .todo-container .done {
+    text-decoration: line-through;
+    color: #ffc8c8; }
+  .todo-container .edit-input {
+    padding: 0;
+    margin-left: 0.5em;
+    height: 20px;
+    border: 0;
+    color: #919191;
+    font-style: italic; }
+  .todo-container .hidden {
+    display: none; }

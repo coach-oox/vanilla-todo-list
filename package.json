@@ -1,0 +1,19 @@
+{
+    "name": "vanilla-todo-list",
+    "version": "1.0.0",
+    "author": "coach-oox",
+    "license": "MIT",
+    "description": "Simple To-Do List App made with Vanilla Javascript.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/coach-oox/vanilla-todo-list.git"
+    },
+    "devDependencies": {
+        "@babel/core": "7.13.8",
+        "@babel/preset-env": "7.13.9",
+        "@babel/register": "7.13.8",
+        "gulp": "4.0.2",
+        "gulp-sass": "4.1.0",
+        "node-sass": "5.0.0"
+    }
+}
