@@ -1,7 +1,10 @@
+Vanilla (Pure) Javascript project for beginners.  
+Check more projects [here](https://github.com/coachoox/vanilla-js-projects).
+
 # To-Do List
 
-Simple To-Do List App made with Vanilla Javascript. [[Demo]](https://coach-oox.github.io/vanilla-todo-list/)  
-🎈 Vanilla JS Project for Beginners.
+Simple todo list made with Vanilla Javascript.  
+[[Demo]](https://coachoox.github.io/js-todo-list/)  
 
 ## Preview
 
